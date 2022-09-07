@@ -6,7 +6,8 @@
   "scripts": {
     "build": "ncc build -o dist/setup-govulncheck src/setup-govulncheck.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src && prettier --write **/*.ts"
+    "lint": "eslint --fix src && prettier --write **/*.ts",
+    "lint:ci": "eslint --quiet src && prettier --check **/*.ts"
   },
   "repository": {
     "type": "git",
