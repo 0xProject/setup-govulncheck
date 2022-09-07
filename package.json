@@ -1,0 +1,35 @@
+{
+  "name": "setup-govulncheck",
+  "version": "1.0.0",
+  "description": "setup govulncheck https://go.dev/security/vuln/",
+  "main": "lib/setup-govulncheck.js",
+  "scripts": {
+    "build": "ncc build -o dist/setup-govulncheck src/setup-govulncheck.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src && prettier --write **/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xProject/setup-govulncheck.git"
+  },
+  "author": "Marcin Wolny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xProject/setup-govulncheck/issues"
+  },
+  "homepage": "https://github.com/0xProject/setup-govulncheck#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "@vercel/ncc": "^0.34.0",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/exec": "^1.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+name: 'Setup https://pkg.go.dev/golang.org/x/vuln/vulncheck'
+description: 'Setup https://pkg.go.dev/golang.org/x/vuln/vulncheck'
+author: 'Marcin Wolny'
+inputs:
+  version:
+    default: latest
+runs:
+  using: 'node16'
+  main: 'dist/setup-govulncheck/index.js'
