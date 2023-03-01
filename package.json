@@ -27,7 +27,7 @@
   "homepage": "https://github.com/0xProject/setup-govulncheck#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.48.0",
     "@vercel/ncc": "^0.36.1",
     "eslint": "^8.35.0",
