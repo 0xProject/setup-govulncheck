@@ -5,5 +5,5 @@ inputs:
   version:
     default: latest
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/setup-govulncheck/index.js'
